@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BeepBoop</string>
+
+    <string name="welcome_title">Welcome to BeepBoop</string>
+    <string name="welcome_description">This app lets you send BeepBoop messages via Tasker. You\'ll need to grant BeepBoop permissions to continue.</string>
+    <string name="grant_permissions">Grant Permissions</string>
+
+    <string name="checking_status">Checking status…</string>
+    <string name="permissions_granted">Permissions granted! BeepBoop is ready to use.</string>
+    <string name="permissions_not_granted">Permissions not granted. Please grant permissions to use BeepBoop.</string>
+    <string name="request_permissions">Request Permissions</string>
+    <string name="view_logs">View Logs</string>
+    <string name="view_rooms">View Rooms</string>
+    
+    <string name="log_viewer_title">BeepBoop Logs</string>
+    <string name="room_list_title">Recent Rooms (Latest 20)</string>
+    <string name="tap_to_copy_hint">Tap on a room to copy its Room ID</string>
+    <string name="clear_logs">Clear Logs</string>
+    <string name="copy_logs">Copy</string>
+    <string name="close">Close</string>
+    <string name="no_logs">No logs available</string>
+    <string name="logs_copied">Logs copied to clipboard</string>
+    <string name="no_rooms">No rooms found</string>
+    <string name="query_failed">Failed to query rooms. Check permissions and Beeper status.</string>
+    <string name="room_id_copied">Room ID copied to clipboard</string>
+    
+    <string name="beeper_not_installed">Beeper app is not installed. Please install Beeper first.</string>
+    <string name="permission_status_read">Read Permission: %s</string>
+    <string name="permission_status_send">Send Permission: %s</string>
+    <string name="granted">Granted</string>
+    <string name="denied">Denied</string>
+
+    <!-- Test Message Activity -->
+    <string name="test_message">Test Message</string>
+    <string name="test_message_title">Send Test Message</string>
+    <string name="test_message_subtitle">Send a message without Tasker - useful for testing</string>
+    <string name="select_room_label">Select Room:</string>
+    <string name="use_custom_room_id">Or enter custom Room ID:</string>
+    <string name="room_id_hint">!room:server.com</string>
+    <string name="message_label">Message:</string>
+    <string name="message_hint">Type your message here…</string>
+    <string name="send_message_button">Send Message</string>
+    <string name="error_no_room">Please select or enter a room</string>
+    <string name="error_no_message">Please enter a message</string>
+    <string name="message_sent_success">Message sent successfully!</string>
+    <string name="message_send_failed">Failed to send message</string>
+    <string name="no_rooms_loaded">No rooms loaded</string>
+
+    <!-- Help Activity -->
+    <string name="help">Help</string>
+    <string name="help_title">How to Use BeepBoop</string>
+    <string name="help_subtitle">Setup instructions and usage guide</string>
+
+    <string name="battery_optimization_title">Battery Optimization</string>
+    <string name="battery_optimization_description">Android may kill this app in the background, preventing messages from sending. Please disable battery optimization for reliable message delivery.</string>
+    <string name="disable_battery_optimization">Disable Battery Optimization</string>
+    <string name="disable_battery_optimization_recommended">Disable Battery Optimization (Recommended)</string>
+    <string name="battery_optimization_requested">Battery optimization settings opened. Please select \"No restrictions\" or similar option.</string>
+    <string name="battery_not_needed">Battery optimization not needed on this Android version</string>
+    <string name="couldnot_open_settings">Could not open settings. Please go to Settings > Apps > BeepBoop > Battery manually.</string>
+
+    <string name="permissions_help_title">Grant Permissions</string>
+    <string name="permissions_help_steps">1. Install BeepBoop app first\n2. Open BeepBoop\n3. Tap \"Request Permissions\"\n4. Grant both Read and Send permissions\n\nPermissions allow this app to send messages through BeepBoop.</string>
+
+    <string name="tasker_help_title">Using with Tasker</string>
+    <string name="tasker_help_description">Send messages automatically using Tasker actions:</string>
+    <string name="tasker_help_example">Action: SEND_MESSAGE\nExtra: roomId:!your:room.id:server.com\nExtra: message:Hello from Tasker!\nTarget: Broadcast Receiver\nPackage: com.github.quickreactor.beepboop</string>
+    <string name="tasker_help_instructions">The app will receive your broadcast and send the message through BeepBoop. Make sure permissions are granted first!</string>
+
+    <!-- Pre-permission dialog -->
+    <string name="permission_explanation_title">Grant Beeper Permissions</string>
+    <string name="permission_explanation_message">BeepBoop needs permissions from Beeper:\n\n• Read Permission – View your chat list and rooms\n• Send Permission – Send messages through your Beeper account\n\nYou\'ll now see Android\'s permission dialog. Please approve both permissions to continue.\n\nNote: You\'ll also need to disable battery optimization (from the Help screen) to ensure messages send reliably in the background.</string>
+    <string name="permission_continue_button">Continue</string>
+</resources>

@@ -1,0 +1,79 @@
+# Build outputs
+*.iml
+.gradle
+/build/
+*/build/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+.proguard/
+proguard/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.externalNativeBuild
+.cxx
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Local files
+/local.properties
+local.properties
+*.keystore
+*.jks
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+*.hprof
+
+# Gradle
+.gradle/
+captures/
+
+# Keystore files (signing keys)
+release.keystore
+*.keystore
+*.jks
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Android specific
+.cxx/
+.externalNativeBuild
+
+# Local development documentation
+CLAUDE.md
+problem.md
+.claude/
+
+# Reference assets (not needed in repo)
+icons/
+
+# Local notes and development files
+problem.md
+.claude/
+
