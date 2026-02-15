@@ -54,10 +54,6 @@
             </intent-filter>
         </receiver>
 
-        <service
-            android:name=".BeeperService"
-            android:exported="false" />
-
     </application>
 
 </manifest>
